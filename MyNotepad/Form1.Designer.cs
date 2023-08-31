@@ -74,6 +74,7 @@
             this.저장ToolStripMenuItem.Name = "저장ToolStripMenuItem";
             this.저장ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.저장ToolStripMenuItem.Text = "저장";
+            this.저장ToolStripMenuItem.Click += new System.EventHandler(this.저장ToolStripMenuItem_Click);
             // 
             // 끝내기ToolStripMenuItem
             // 
@@ -92,7 +93,7 @@
             // 메모장정보ToolStripMenuItem
             // 
             this.메모장정보ToolStripMenuItem.Name = "메모장정보ToolStripMenuItem";
-            this.메모장정보ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.메모장정보ToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.메모장정보ToolStripMenuItem.Text = "메모장 정보";
             // 
             // textBox1
