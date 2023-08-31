@@ -30,5 +30,10 @@ namespace MyNotepad
             saveFileDialog1.ShowDialog(this);
             File.WriteAllText(saveFileDialog1.FileName, textBox1.Text);
         }
+
+        private void 끝내기ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
