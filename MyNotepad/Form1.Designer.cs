@@ -94,8 +94,9 @@
             // 메모장정보ToolStripMenuItem
             // 
             this.메모장정보ToolStripMenuItem.Name = "메모장정보ToolStripMenuItem";
-            this.메모장정보ToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.메모장정보ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.메모장정보ToolStripMenuItem.Text = "메모장 정보";
+            this.메모장정보ToolStripMenuItem.Click += new System.EventHandler(this.메모장정보ToolStripMenuItem_Click);
             // 
             // textBox1
             // 

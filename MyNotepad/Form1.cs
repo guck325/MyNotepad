@@ -35,5 +35,10 @@ namespace MyNotepad
         {
             Application.Exit();
         }
+
+        private void 메모장정보ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("제작자: guck", "메모장 정보", MessageBoxButtons.OK,MessageBoxIcon.Information);
+        }
     }
 }
