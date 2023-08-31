@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,5 +17,14 @@ namespace MyNotepad
         {
             InitializeComponent();
         }
+
+        private void 열기ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.ShowDialog(this);
+            textBox1.Text = File.ReadAllText(openFileDialog1.FileName);
+
+        }
+
+        
     }
 }
